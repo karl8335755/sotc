@@ -1,0 +1,272 @@
+body,
+html {
+  border: 0;
+  margin: 0; }
+  body .wrapper,
+  html .wrapper {
+    width: 100%; }
+    body .wrapper .welcome,
+    html .wrapper .welcome {
+      width: 100%;
+      height: 1200px;
+      position: relative;
+      overflow: hidden; }
+      body .wrapper .welcome .bg-img,
+      html .wrapper .welcome .bg-img {
+        position: absolute;
+        left: -12%;
+        z-index: -1;
+        width: 120%;
+        height: 110%;
+        filter: brightness(75%); }
+      body .wrapper .welcome .nav,
+      html .wrapper .welcome .nav {
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        position: fixed;
+        display: none; }
+        body .wrapper .welcome .nav ul,
+        html .wrapper .welcome .nav ul {
+          width: 75%;
+          height: 100%;
+          margin: auto;
+          text-align: center; }
+          body .wrapper .welcome .nav ul li,
+          html .wrapper .welcome .nav ul li {
+            list-style: none;
+            display: inline-block;
+            color: white;
+            font-size: 14px;
+            margin-top: 15px;
+            margin-left: 50px; }
+            body .wrapper .welcome .nav ul li a,
+            html .wrapper .welcome .nav ul li a {
+              text-decoration: none;
+              color: #999; }
+              body .wrapper .welcome .nav ul li a:hover,
+              html .wrapper .welcome .nav ul li a:hover {
+                color: white; }
+      body .wrapper .welcome .header .menubar,
+      html .wrapper .welcome .header .menubar {
+        width: 80%;
+        height: 180px;
+        position: relative;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center; }
+        body .wrapper .welcome .header .menubar .menu1,
+        html .wrapper .welcome .header .menubar .menu1 {
+          width: 40%;
+          height: 50px;
+          position: absolute;
+          bottom: 15%;
+          left: 10%;
+          list-style: none;
+          text-align: center; }
+          body .wrapper .welcome .header .menubar .menu1 li,
+          html .wrapper .welcome .header .menubar .menu1 li {
+            float: left;
+            margin-right: 50px;
+            color: white;
+            opacity: 0.7; }
+            body .wrapper .welcome .header .menubar .menu1 li:hover,
+            html .wrapper .welcome .header .menubar .menu1 li:hover {
+              opacity: 1; }
+        body .wrapper .welcome .header .menubar .menu2,
+        html .wrapper .welcome .header .menubar .menu2 {
+          width: 40%;
+          height: 50px;
+          position: absolute;
+          bottom: 15%;
+          right: 0%;
+          list-style: none;
+          text-align: center; }
+          body .wrapper .welcome .header .menubar .menu2 li,
+          html .wrapper .welcome .header .menubar .menu2 li {
+            float: left;
+            margin-right: 50px;
+            color: white;
+            opacity: 0.7; }
+            body .wrapper .welcome .header .menubar .menu2 li:hover,
+            html .wrapper .welcome .header .menubar .menu2 li:hover {
+              opacity: 1; }
+        body .wrapper .welcome .header .menubar .logo,
+        html .wrapper .welcome .header .menubar .logo {
+          width: 200px;
+          height: 200px;
+          position: absolute;
+          left: 40%;
+          top: 0%; }
+      body .wrapper .welcome .header .banner,
+      html .wrapper .welcome .header .banner {
+        width: 80%;
+        height: 250px;
+        margin: auto;
+        margin-top: 180px;
+        color: white;
+        text-align: center; }
+        body .wrapper .welcome .header .banner h1,
+        html .wrapper .welcome .header .banner h1 {
+          font-size: 72px; }
+      body .wrapper .welcome .header .signup,
+      html .wrapper .welcome .header .signup {
+        width: 55%;
+        height: 350px;
+        margin: auto;
+        margin-top: 50px;
+        text-align: center; }
+        body .wrapper .welcome .header .signup h2,
+        html .wrapper .welcome .header .signup h2 {
+          color: #345678;
+          font-size: 42px;
+          margin-top: 50px; }
+        body .wrapper .welcome .header .signup p,
+        html .wrapper .welcome .header .signup p {
+          color: white;
+          font-size: 20px; }
+        body .wrapper .welcome .header .signup input,
+        html .wrapper .welcome .header .signup input {
+          width: 250px;
+          height: 50px;
+          display: block;
+          margin: auto;
+          color: #333;
+          border-radius: 5px;
+          font-size: 20px; }
+        body .wrapper .welcome .header .signup button,
+        html .wrapper .welcome .header .signup button {
+          display: block;
+          width: 150px;
+          height: 50px;
+          margin: auto;
+          margin-top: 15px;
+          border: none;
+          border-radius: 50px;
+          background-color: #333;
+          color: white;
+          font-size: 20px;
+          margin-bottom: 50px; }
+        body .wrapper .welcome .header .signup span,
+        html .wrapper .welcome .header .signup span {
+          color: white; }
+    body .wrapper .intro,
+    html .wrapper .intro {
+      position: relative;
+      width: 80%;
+      height: 500px;
+      margin: auto;
+      display: grid;
+      grid-template-column: 3fr 1fr;
+      grid-gap: 50px; }
+      body .wrapper .intro .open,
+      html .wrapper .intro .open {
+        grid-column: 1;
+        margin: 50px;
+        margin-right: 0px; }
+        body .wrapper .intro .open h1,
+        html .wrapper .intro .open h1 {
+          letter-spacing: 5px;
+          line-height: 50px; }
+        body .wrapper .intro .open p,
+        html .wrapper .intro .open p {
+          color: #AAA; }
+      body .wrapper .intro .contact,
+      html .wrapper .intro .contact {
+        grid-column: 2;
+        margin: 50px;
+        color: #AAA; }
+        body .wrapper .intro .contact ul li,
+        html .wrapper .intro .contact ul li {
+          list-style: none;
+          margin-top: 50px; }
+    body .wrapper #map,
+    html .wrapper #map {
+      position: relative;
+      bottom: 0;
+      left: 0;
+      width: 40%;
+      height: 350px;
+      margin: 50px auto;
+      text-align: center;
+      color: none; }
+    body .wrapper .menu,
+    html .wrapper .menu {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding-top: 150px;
+      margin: auto;
+      text-align: center;
+      background: #f5f5f5; }
+      body .wrapper .menu img,
+      html .wrapper .menu img {
+        position: relative;
+        width: 13%;
+        margin: auto; }
+      body .wrapper .menu .mixian::before,
+      html .wrapper .menu .mixian::before {
+        content: "MIXIAN RICE NOODLES";
+        font-size: 16px;
+        position: relative; }
+      body .wrapper .menu .sides::before,
+      html .wrapper .menu .sides::before {
+        content: "APPETIZER/ SIDES";
+        font-size: 16px; }
+      body .wrapper .menu .drink::before,
+      html .wrapper .menu .drink::before {
+        content: "SOFT DRINKS";
+        font-size: 16px; }
+      body .wrapper .menu .dessert::before,
+      html .wrapper .menu .dessert::before {
+        content: "DESSERT";
+        font-size: 16px; }
+      body .wrapper .menu div,
+      html .wrapper .menu div {
+        position: relative;
+        width: 90%;
+        height: 50vh;
+        margin: 50px auto; }
+        body .wrapper .menu div ul li,
+        html .wrapper .menu div ul li {
+          list-style: none;
+          width: 30%;
+          height: 18vh;
+          display: inline-block;
+          margin: 10px;
+          position: relative;
+          left: -1.5%;
+          opacity: 0.7; }
+          body .wrapper .menu div ul li h3,
+          html .wrapper .menu div ul li h3 {
+            font-size: 15px; }
+          body .wrapper .menu div ul li p,
+          html .wrapper .menu div ul li p {
+            font-size: 11px; }
+      body .wrapper .menu .drink,
+      html .wrapper .menu .drink {
+        height: 25vh;
+        margin: 10px auto; }
+        body .wrapper .menu .drink ul li,
+        html .wrapper .menu .drink ul li {
+          width: 20%;
+          height: 9vh;
+          margin: 10px; }
+    body .wrapper footer,
+    html .wrapper footer {
+      width: 100%;
+      height: 150px;
+      position: relative;
+      bottom: 0;
+      background-color: #000;
+      color: #aaa;
+      display: flex;
+      align-content: center; }
+      body .wrapper footer h3,
+      html .wrapper footer h3 {
+        font-size: 16px;
+        margin-top: 5%;
+        margin-left: 10%; }
+
+/*# sourceMappingURL=style.css.map */
